@@ -10,6 +10,7 @@ export default class Keypad extends Component {
   }
   
   keyUpHandler = () => {
+    console.log('Entering password...');
     this.setState({
       //color: '#333'
     });
