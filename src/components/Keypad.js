@@ -5,13 +5,13 @@ export default class Keypad extends Component {
   constructor(props) {
     super();
     this.state = {
-      color: props.value
+      //color: props.value
     }
   }
   
   keyUpHandler = () => {
     this.setState({
-      color: '#333'
+      //color: '#333'
     });
   }
   
