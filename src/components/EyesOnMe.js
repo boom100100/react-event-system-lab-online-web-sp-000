@@ -16,6 +16,12 @@ export default class EyesOnMe extends Component {
     });
   }
   
+  blurHandler = () => {
+    console.log('Good!');
+    this.setState({
+      color: '#333'
+    });
+  }
   render() {
     return (
       <div><button onFocus={this.focusHandler} /></div>
