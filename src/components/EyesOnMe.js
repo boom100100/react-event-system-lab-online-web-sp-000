@@ -10,7 +10,7 @@ export default class EyesOnMe extends Component {
   }
   
   focusHandler = () => {
-    console.log('Entering password...');
+    console.log('Good!');
     this.setState({
       color: '#333'
     });
