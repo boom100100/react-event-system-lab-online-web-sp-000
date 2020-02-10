@@ -17,7 +17,7 @@ export default class EyesOnMe extends Component {
   
   render() {
     return (
-      <div className='cell' style={{backgroundColor: this.state.color}} onClick={this.clickHandler}></div>
+      <div><button onFocus={this.focusHandler} /></div>
     )
   }
   
