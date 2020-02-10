@@ -9,7 +9,7 @@ export default class EyesOnMe extends Component {
     }
   }
   
-  clickHandler = () => {
+  focusHandler = () => {
     this.setState({
       color: '#333'
     });
