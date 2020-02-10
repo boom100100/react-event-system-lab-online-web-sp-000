@@ -17,7 +17,7 @@ export default class EyesOnMe extends Component {
   }
   
   blurHandler = () => {
-    console.log('Good!');
+    console.log('Hey! Eyes on me!');
     this.setState({
       color: '#333'
     });
