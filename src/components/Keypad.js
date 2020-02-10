@@ -9,7 +9,7 @@ export default class Keypad extends Component {
     }
   }
   
-  clickHandler = () => {
+  keyUpHandler = () => {
     this.setState({
       color: '#333'
     });
@@ -17,7 +17,7 @@ export default class Keypad extends Component {
   
   render() {
     return (
-      <div><input type="password" /></div>
+      <div><input onKeyUp={this.keyUpHandler} type="password" /></div>
     )
   }
   
